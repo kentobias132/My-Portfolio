@@ -101,10 +101,6 @@ nav ul li a:hover {
   color: #2351dc;
   font-size: 25px;
 }
-.caption h1 {
-  font-size: 50px;
-  font-weight: 900;
-}
 
 .right .photo {
   width: 100%;
@@ -450,9 +446,7 @@ form .button {
   align-items: center;
   padding: 80px 0;
 }
-.footer-container span {
-  color: #2351dc;
-}
+
 .footer i {
   border-color: #fff;
   color: #fff;
@@ -467,6 +461,38 @@ form .button {
 }
 .f-icon {
   padding-bottom: 20px;
+}
+
+#responsive-icon-btn {
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+  position: absolute;
+  top: 27px;
+  right: 35px;
+  display: none;
+}
+
+#responsive-icon-btn svg {
+  height: 1.6rem;
+  width: 1.6rem;
+  color: #2351dc;
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+}
+
+#responsive-icon-btn .openIcon {
+  display: block;
+}
+#responsive-icon-btn .closeIcon {
+  display: none;
+}
+#responsive-icon-btn.open .openIcon {
+  display: none;
+}
+#responsive-icon-btn.open .closeIcon {
+  display: block;
 }
 
 /* RESPONSIVE  */
@@ -498,6 +524,14 @@ form .button {
 }
 
 @media (max-width: 850px) {
+  h1 {
+    font-size: 40px;
+    font-weight: 800;
+  }
+  nav .s-text,
+  .footer-container .s-text {
+    font-size: 25px;
+  }
   .sec-container {
     max-width: 90%;
   }
@@ -536,6 +570,13 @@ form .button {
   }
 }
 @media (max-width: 690px) {
+  h1 {
+    font-size: 30px;
+    font-weight: 700;
+  }
+  #responsive-icon-btn {
+    display: block;
+  }
   ul {
     display: none;
   }

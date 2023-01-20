@@ -13,6 +13,9 @@
       integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
       crossorigin="anonymous"
     />
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <!-- Google font -->
     <link
       href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap"
       rel="stylesheet"
@@ -61,7 +64,7 @@
                 </svg>
               </button>
 
-              <ul>
+              <ul id="menu-list">
                 <li><a href="#">About Me</a></li>
                 <li><a href="#">Service</a></li>
                 <li><a href="#">Project</a></li>
@@ -312,54 +315,89 @@
     </section>
 
     <section class="testimony">
+
       <div class="text-side">
         <h1>
           Testimonies & <br />
           Recommendations
         </h1>
       </div>
+
       <div class="review-side">
-        <div class="client">
-          <div class="img-box">
-            <img src="./asset/IMG_1677.jpeg" alt="" />
-          </div>
-          <h2>Damilola Shomefun</h2>
-          <p>
-            Tobi gets things done. He’s very passionate about what he does and
-            he’s always fun to be with.
-          </p>
-        </div>
-        <div class="client">
-          <div class="img-box">
-            <img src="./asset/IMG_1677.jpeg" alt="" />
-          </div>
-          <h2>Daramola Oluwaseun</h2>
-          <p>
-            Tobi gets things done. He’s very passionate about what he does and
-            he’s always fun to be with.
-          </p>
-        </div>
-        <div class="client">
-          <div class="img-box">
-            <img src="./asset/IMG_1677.jpeg" alt="" />
-          </div>
-          <h2>Tony Elumelo</h2>
-          <p>
-            Tobi gets things done. He’s very passionate about what he does and
-            he’s always fun to be with.
-          </p>
-        </div>
-        <div class="client">
-          <div class="img-box">
-            <img src="./asset/IMG_1677.jpeg" alt="" />
-          </div>
-          <h2>Daniel Ikechukwu</h2>
-          <p>
-            Tobi gets things done. He’s very passionate about what he does and
-            he’s always fun to be with.
-          </p>
-        </div>
-      </div>
+        <div class="review-box">
+
+                <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+
+                        <div class="card-image">
+                            <img src="./asset/IMG_1677.jpeg" alt="" class="card-img">
+                        </div>
+                    </div>
+
+                    <div class="card-content">
+                        <h2 class="name">David Creg</h2>
+                        <p class="description">Tobi gets things done. He’s very passionate about what he does and
+            he’s always fun to be with.</p>
+
+                        
+                    </div>
+                </div>
+                <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+
+                        <div class="card-image">
+                          <img src="./asset/IMG_1677.jpeg" alt="" class="card-img">
+                        </div>
+                    </div>
+
+                    <div class="card-content">
+                        <h2 class="name">Ruth Alabi</h2>
+                        <p class="description">Tobi gets things done. He’s very passionate about what he does and
+            he’s always fun to be with.</p>
+
+                        
+                    </div>
+                </div>
+                <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+
+                        <div class="card-image">
+                          <img src="./asset/IMG_1677.jpeg" alt="" class="card-img">
+                        </div>
+                    </div>
+
+                    <div class="card-content">
+                        <h2 class="name">Favour</h2>
+                        <p class="description">Tobi gets things done. He’s very passionate about what he does and
+            he’s always fun to be with.</p>
+
+                        
+                    </div>
+                </div>
+                <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+
+                        <div class="card-image">
+                          <img src="./asset/IMG_1677.jpeg" alt="" class="card-img">
+                        </div>
+                    </div>
+
+                    <div class="card-content">
+                        <h2 class="name">Clinton Peter</h2>
+                        <p class="description">Tobi gets things done. He’s very passionate about what he does and
+            he’s always fun to be with.</p>
+
+                        
+                    </div>
+                </div>  
+              </div>
+
+       
+    </div>
     </section>
 
     <section class="contact">
@@ -444,6 +482,8 @@
         </p>
       </div>
     </section>
+        <script src="./swiper-bundle.min.js"></script>
+
     <script src="./main.js"></script>
   </body>
 </html>

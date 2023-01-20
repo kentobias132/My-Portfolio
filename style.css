@@ -318,94 +318,91 @@ nav ul li a:hover {
   padding: 80px 7%;
 }
 
-.testimony .review-box{
+.testimony .review-box {
   width: 100%;
   max-width: 600px;
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    gap: 60px;
-    margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 60px;
+  margin: 0 auto;
 }
 
-.slide-container{
+.slide-container {
   max-width: 1120px;
   width: 100%;
   padding: 40px 0;
 }
-.slide-content{
+.slide-content {
   margin: 0 40px;
   overflow: hidden;
   border-radius: 25px;
 }
-.card{
+.card {
   border-radius: 25px;
-  background-color: #FFF;
+  background-color: #fff;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 .image-content,
-.card-content{
+.card-content {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 10px 14px;
 }
-.image-content{
+.image-content {
   position: relative;
   row-gap: 5px;
   padding: 25px 0;
 }
-.overlay{
+.overlay {
   position: absolute;
   left: 0;
   top: 0;
   height: 100%;
   width: 100%;
-  background-color: #4070F4;
+  background-color: #4070f4;
   border-radius: 25px 25px 0 25px;
 }
 .overlay::before,
-.overlay::after{
-  content: '';
+.overlay::after {
+  content: "";
   position: absolute;
   right: 0;
   bottom: -40px;
   height: 40px;
   width: 40px;
-  background-color: #4070F4;
+  background-color: #4070f4;
 }
-.overlay::after{
+.overlay::after {
   border-radius: 0 25px 0 0;
-  background-color: #FFF;
+  background-color: #fff;
 }
-.card-image{
+.card-image {
   position: relative;
   height: 150px;
   width: 150px;
   border-radius: 50%;
-  background: #FFF;
+  background: #fff;
   padding: 3px;
 }
-.card-image .card-img{
+.card-image .card-img {
   height: 100%;
   width: 100%;
   object-fit: cover;
   border-radius: 50%;
-  border: 4px solid #4070F4;
+  border: 4px solid #4070f4;
 }
-.name{
+.name {
   font-size: 18px;
   font-weight: 500;
   color: #333;
 }
-.description{
+.description {
   font-size: 14px;
   color: #707070;
   text-align: center;
 }
-
-
-
 
 /* CONTACT */
 .contact {
@@ -552,8 +549,9 @@ form .button {
   right: 0.75rem;
 }
 
-#menu-list.active{
+#menu-list.active {
   display: block;
+  width: 100%;
 }
 #responsive-icon-btn .openIcon {
   display: block;
@@ -653,17 +651,23 @@ form .button {
   nav {
     display: block;
   }
-  ul {
+  #menu-list {
     display: none;
     text-align: center;
-    /* margin-right: -1000px; */
+    /* margin-right: 1000px; */
 
     /* display: block; */
     background-color: #2351dc;
     position: relative;
+    width: 0%;
     top: 10px;
+    transition: width 2s;
   }
-  nav ul li{
+  /* ul:hover {
+    display: block;
+    width: 100%;
+  } */
+  nav ul li {
     padding: 15px;
   }
   nav ul li a {
@@ -688,9 +692,8 @@ form .button {
   .sec-container {
     width: 80%;
   }
-  .caption{
+  .caption {
     margin: 100px 0;
-
   }
   .skills_main,
   .services-main,

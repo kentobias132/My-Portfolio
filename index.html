@@ -14,7 +14,7 @@
       crossorigin="anonymous"
     />
     <!-- Swiper CSS -->
-    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
     <!-- Google font -->
     <link
       href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap"
@@ -25,71 +25,69 @@
   <body>
     <section class="main">
       <div class="left">
-        <div class="small-screen">
-          <div class="left-container">
-            <nav>
-              <h2 class="s-text">
-                <a href="#">KenTobias<span class="dot">.</span></a>
-              </h2>
+        <div class="left-container">
+          <nav>
+            <h2 class="s-text">
+              <a href="#">KenTobias<span class="dot">.</span></a>
+            </h2>
 
-              <button id="responsive-icon-btn">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke-width="1.5"
-                  stroke="currentColor"
-                  class="openIcon"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
-                  />
-                </svg>
+            <button id="responsive-icon-btn">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="openIcon"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+                />
+              </svg>
 
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke-width="1.5"
-                  stroke="currentColor"
-                  class="closeIcon"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M6 18L18 6M6 6l12 12"
-                  />
-                </svg>
-              </button>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="closeIcon"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M6 18L18 6M6 6l12 12"
+                />
+              </svg>
+            </button>
 
-              <ul id="menu-list">
-                <li><a href="#">About Me</a></li>
-                <li><a href="#">Service</a></li>
-                <li><a href="#">Project</a></li>
-                <li><a href="#">Contact me</a></li>
-              </ul>
-            </nav>
+            <ul id="menu-list">
+              <li><a href="#about">About Me</a></li>
+              <li><a href="#service">Service</a></li>
+              <li><a href="#skill">Project</a></li>
+              <li><a href="#contact">Contact me</a></li>
+            </ul>
+          </nav>
 
-            <div class="caption">
-              <h4>HI THERE</h4>
-              <h3>I AM KEHINDE TOBI</h3>
-              <h1>
-                A Top-notch Front-end, <br />
-                Software Developer
-              </h1>
-              <div class="icons">
-                <a
-                  href="https://linkedin.com/in/tobi-olufemi-2a11a7213"
-                  target="_blank"
-                >
-                  <i class="fab fa-linkedin"></i
-                ></a>
-                <a href="https://twitter.com/holuwerthobhi" target="_blank"
-                  ><i class="fab fa-twitter"></i
-                ></a>
-              </div>
+          <div class="caption">
+            <h4>HI THERE</h4>
+            <h3>I AM KEHINDE TOBI</h3>
+            <h1>
+              A Top-notch Front-end, <br />
+              Software Developer
+            </h1>
+            <div class="icons">
+              <a
+                href="https://linkedin.com/in/tobi-olufemi-2a11a7213"
+                target="_blank"
+              >
+                <i class="fab fa-linkedin"></i
+              ></a>
+              <a href="https://twitter.com/holuwerthobhi" target="_blank"
+                ><i class="fab fa-twitter"></i
+              ></a>
             </div>
           </div>
         </div>
@@ -113,7 +111,7 @@
       </div>
     </section>
 
-    <section class="about">
+    <section id="about" class="about">
       <div class="center">
         <div class="about-content">
           <h1>About Me</h1>
@@ -137,7 +135,7 @@
       </div>
     </section>
 
-    <section class="skill">
+    <section id="skill" class="skill">
       <div class="sec-container">
         <h1>My Skills</h1>
         <p>Here are a few skills i possess</p>
@@ -225,7 +223,7 @@
       </div>
     </section>
 
-    <section class="service">
+    <section id="service" class="service">
       <div class="sec-container">
         <h1>Services I Render.</h1>
         <p>
@@ -314,8 +312,7 @@
       </div>
     </section>
 
-    <section class="testimony">
-
+    <section id="testimony" class="testimony">
       <div class="text-side">
         <h1>
           Testimonies & <br />
@@ -325,82 +322,79 @@
 
       <div class="review-side">
         <div class="review-box">
+          <div class="card swiper-slide">
+            <div class="image-content">
+              <span class="overlay"></span>
 
-                <div class="card swiper-slide">
-                    <div class="image-content">
-                        <span class="overlay"></span>
-
-                        <div class="card-image">
-                            <img src="./asset/IMG_1677.jpeg" alt="" class="card-img">
-                        </div>
-                    </div>
-
-                    <div class="card-content">
-                        <h2 class="name">David Creg</h2>
-                        <p class="description">Tobi gets things done. He’s very passionate about what he does and
-            he’s always fun to be with.</p>
-
-                        
-                    </div>
-                </div>
-                <div class="card swiper-slide">
-                    <div class="image-content">
-                        <span class="overlay"></span>
-
-                        <div class="card-image">
-                          <img src="./asset/IMG_1677.jpeg" alt="" class="card-img">
-                        </div>
-                    </div>
-
-                    <div class="card-content">
-                        <h2 class="name">Ruth Alabi</h2>
-                        <p class="description">Tobi gets things done. He’s very passionate about what he does and
-            he’s always fun to be with.</p>
-
-                        
-                    </div>
-                </div>
-                <div class="card swiper-slide">
-                    <div class="image-content">
-                        <span class="overlay"></span>
-
-                        <div class="card-image">
-                          <img src="./asset/IMG_1677.jpeg" alt="" class="card-img">
-                        </div>
-                    </div>
-
-                    <div class="card-content">
-                        <h2 class="name">Favour</h2>
-                        <p class="description">Tobi gets things done. He’s very passionate about what he does and
-            he’s always fun to be with.</p>
-
-                        
-                    </div>
-                </div>
-                <div class="card swiper-slide">
-                    <div class="image-content">
-                        <span class="overlay"></span>
-
-                        <div class="card-image">
-                          <img src="./asset/IMG_1677.jpeg" alt="" class="card-img">
-                        </div>
-                    </div>
-
-                    <div class="card-content">
-                        <h2 class="name">Clinton Peter</h2>
-                        <p class="description">Tobi gets things done. He’s very passionate about what he does and
-            he’s always fun to be with.</p>
-
-                        
-                    </div>
-                </div>  
+              <div class="card-image">
+                <img src="./asset/IMG_1677.jpeg" alt="" class="card-img" />
               </div>
+            </div>
 
-       
-    </div>
+            <div class="card-content">
+              <h2 class="name">David Creg</h2>
+              <p class="description">
+                Tobi gets things done. He’s very passionate about what he does
+                and he’s always fun to be with.
+              </p>
+            </div>
+          </div>
+          <div class="card swiper-slide">
+            <div class="image-content">
+              <span class="overlay"></span>
+
+              <div class="card-image">
+                <img src="./asset/IMG_1677.jpeg" alt="" class="card-img" />
+              </div>
+            </div>
+
+            <div class="card-content">
+              <h2 class="name">Ruth Alabi</h2>
+              <p class="description">
+                Tobi gets things done. He’s very passionate about what he does
+                and he’s always fun to be with.
+              </p>
+            </div>
+          </div>
+          <div class="card swiper-slide">
+            <div class="image-content">
+              <span class="overlay"></span>
+
+              <div class="card-image">
+                <img src="./asset/IMG_1677.jpeg" alt="" class="card-img" />
+              </div>
+            </div>
+
+            <div class="card-content">
+              <h2 class="name">Favour</h2>
+              <p class="description">
+                Tobi gets things done. He’s very passionate about what he does
+                and he’s always fun to be with.
+              </p>
+            </div>
+          </div>
+          <div class="card swiper-slide">
+            <div class="image-content">
+              <span class="overlay"></span>
+
+              <div class="card-image">
+                <img src="./asset/IMG_1677.jpeg" alt="" class="card-img" />
+              </div>
+            </div>
+
+            <div class="card-content">
+              <h2 class="name">Clinton Peter</h2>
+              <p class="description">
+                Tobi gets things done. He’s very passionate about what he does
+                and he’s always fun to be with.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <section class="contact">
+    <section id="contact" class="contact">
       <div class="info-side">
         <div class="info">
           <h1>Get In Touch.</h1>
@@ -482,7 +476,7 @@
         </p>
       </div>
     </section>
-        <script src="./swiper-bundle.min.js"></script>
+    <script src="./swiper-bundle.min.js"></script>
 
     <script src="./main.js"></script>
   </body>
